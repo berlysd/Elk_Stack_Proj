@@ -1,0 +1,28 @@
+
+Authentication Report
+============================================
+# date time acct host term exe success event
+============================================
+1. 05/18/2020 23:41:55 sysadmin ? ? /usr/lib/policykit-1/polkit-agent-helper-1 yes 53
+2. 05/18/2020 23:41:58 sysadmin ? ? /usr/lib/policykit-1/polkit-agent-helper-1 yes 55
+3. 05/18/2020 23:42:04 sysadmin ? ? /usr/lib/policykit-1/polkit-agent-helper-1 yes 63
+4. 05/18/2020 23:45:09 root ? /dev/pts/0 /bin/su yes 91
+5. 05/18/2020 23:51:01 root ? /dev/pts/0 /bin/su yes 131
+6. 05/18/2020 23:56:04 root ubuntu-vm pts/0 /usr/bin/chfn yes 1674
+7. 05/19/2020 00:12:05 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 4927
+8. 05/19/2020 00:16:50 root ? /dev/pts/0 /bin/su yes 5081
+9. 05/19/2020 00:30:27 sysadmin ? /dev/pts/1 /usr/bin/sudo yes 5373
+10. 05/19/2020 00:44:18 sysadmin ? /dev/pts/0 /usr/bin/sudo no 5738
+11. 05/19/2020 00:44:21 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 5741
+12. 05/19/2020 00:44:21 root ? /dev/pts/0 /bin/su yes 5756
+
+Account Modifications Report
+=================================================
+# date time auid addr term exe acct success event
+=================================================
+1. 05/18/2020 23:55:42 1002 ubuntu-vm pts/0 /usr/sbin/groupadd ? yes 1583
+2. 05/18/2020 23:55:42 1002 ubuntu-vm pts/0 /usr/sbin/groupadd ? yes 1584
+3. 05/18/2020 23:55:42 1002 ubuntu-vm pts/0 /usr/sbin/groupadd ? yes 1585
+4. 05/18/2020 23:55:42 1002 ubuntu-vm pts/0 /usr/sbin/useradd ? yes 1593
+5. 05/18/2020 23:55:53 1002 ubuntu-vm pts/0 /usr/bin/passwd attacker no 1614
+6. 05/18/2020 23:56:04 1002 ubuntu-vm pts/0 /usr/bin/passwd attacker yes 1671
