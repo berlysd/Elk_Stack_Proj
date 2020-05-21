@@ -7,10 +7,10 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   
-  [Web VM Playbook](../Ansible/first-playbook.yml)
-  [Install Elk](../Ansible/install-elk.yml)
-  [Filebeat Playbook](../Ansible/filebeat-playbook.yml)
-  [Metricbeat Playbook](../Ansible/metricbeat-playbook.yml)
+  [Web VM Playbook](https://github.com/berlysd/Elk_Stack_Proj/blob/master/Ansible/Ansible_Config.yml)
+  [Install Elk](https://github.com/berlysd/Elk_Stack_Proj/blob/master/Ansible/install-elk.yml)
+  [Filebeat Playbook](https://github.com/berlysd/Elk_Stack_Proj/blob/master/Ansible/Filebeat_Configuration.yml)
+  [Metricbeat Playbook](https://github.com/berlysd/Elk_Stack_Proj/blob/master/Ansible/pentest.yml)
 
 
 This document contains the following details:
