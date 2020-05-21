@@ -27,10 +27,9 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly will be highly persistent and available, in addition to restricting access to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system files.
-- _Filebeat monitors log files or locations that I specify, collects log events, and forwards them to elasticsearch.
+- Filebeat monitors log files or locations that I specify, collects log events, and forwards them to elasticsearch.
 - Metric beat records metrics from the operating system and from services running on the server.
 
 
@@ -79,8 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-
+[Docker PS](https://github.com/berlysd/Elk_Stack_Proj/blob/master/Diagrams/Screen%20Shot%202020-05-20%20at%2011.53.49%20PM.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -102,8 +100,6 @@ SSH into the control node and follow the steps below:
 - Update the host file to include the IPÕs of the machines you are configuring.
 - Run the playbook, and navigate to http://{Elk VM IP}.5601/ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
 - Playbooks are in filebeat.yml and metricbeat.yml
 - Files copied to /etc/filebeat/filebeat/yml and /etc/metricbeat/metricbeat.yml
 
@@ -112,4 +108,5 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
 - http://[elk-vm public up]:5601 if it works it should take you to the Kibana dashboard.
+[Kibana Diagram](https://github.com/berlysd/Elk_Stack_Proj/blob/master/Diagrams/Kibana%20Module%20Status.png)
 
